@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACWebAssessment", "ACWebAssessment\ACWebAssessment.csproj", "{8C3FF178-B5B4-49B6-9F71-B8060AFFD8D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACWebAssessment.Tests", "ACWebAssessment.Tests\ACWebAssessment.Tests.csproj", "{F8F7E791-BF26-4BE2-B9CB-1EEE0C688E57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C3FF178-B5B4-49B6-9F71-B8060AFFD8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3FF178-B5B4-49B6-9F71-B8060AFFD8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3FF178-B5B4-49B6-9F71-B8060AFFD8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3FF178-B5B4-49B6-9F71-B8060AFFD8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F7E791-BF26-4BE2-B9CB-1EEE0C688E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F7E791-BF26-4BE2-B9CB-1EEE0C688E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F7E791-BF26-4BE2-B9CB-1EEE0C688E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F7E791-BF26-4BE2-B9CB-1EEE0C688E57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF9490FC-0F07-401F-BF8D-62BE2F8F953C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿@model ACWebAssessment.Models.Order
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <h3>Order No. @Html.DisplayFor(model => model.Id)</h3>
+    <p>Order date: @Html.DisplayFor(model => model.OrderDate)</p>
+
+    <h4>
+        Total price: &pound; @Html.DisplayFor(model => model.FullPrice)
+    </h4>
+
+    @Html.ActionLink("Checkout", "Create", new { controller = "Customers" }, new { @class = "btn btn-primary" })
+
+</div>
+<p>
+    @Html.ActionLink("Back to the products", "Index", new { controller = "Products" })
+</p>
